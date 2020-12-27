@@ -5,7 +5,7 @@ import { userContext } from "../../context/userContext";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [user, setUser] = useContext(userContext).user;
+  const [user] = useContext(userContext).user;
   return (
     <div className="navbar">
       <Link to="/" className="logo-title">

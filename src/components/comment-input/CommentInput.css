@@ -1,0 +1,21 @@
+.comment-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-input-textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  background-color: #f3f2ef;
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.comment-post-btn {
+  background-color: #fff;
+  border: none;
+  padding: 1px 10px;
+  margin-left: 5px;
+}

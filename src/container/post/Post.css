@@ -1,0 +1,41 @@
+.post {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+}
+
+.post-author img {
+  height: 35px;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 5px 0;
+}
+
+.post-delete-btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.post-center-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-right: 10px;
+}

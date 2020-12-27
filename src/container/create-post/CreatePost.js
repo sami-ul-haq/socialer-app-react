@@ -8,7 +8,7 @@ import makeid from "../../helpers/function";
 import firebase from "firebase";
 
 const CreatePost = () => {
-  const [user, setUser] = useContext(userContext).user;
+  const [user] = useContext(userContext).user;
   const [caption, setCaption] = useState();
   const [image, setImage] = useState(null);
   const [progress, setProgress] = useState(0);
@@ -56,6 +56,11 @@ const CreatePost = () => {
                 userPhotoUrl: user.photoURL,
               });
             });
+
+          setCaption("");
+          setImage(null);
+          setProgress(0);
+          document.getElementById("image-preview").style.display = "none";
         }
       );
     }
