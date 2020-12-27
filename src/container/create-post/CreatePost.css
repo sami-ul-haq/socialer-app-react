@@ -1,0 +1,11 @@
+.createPost,
+.not-logged-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.createPost .post-comment {
+  margin-left: 12px;
+}
