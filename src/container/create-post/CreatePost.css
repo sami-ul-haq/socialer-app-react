@@ -6,6 +6,49 @@
   padding: 24px;
 }
 
+.create-post-logged-in {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
 .createPost .post-comment {
   margin-left: 12px;
+}
+
+.createpost-uploadimage > input {
+  display: none;
+}
+
+.createpost-uploadbtn {
+  border: 1px solid #737373;
+  outline: none;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.createpost-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-post-textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: 6px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+#image-preview {
+  display: none;
+  height: 100px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
 }

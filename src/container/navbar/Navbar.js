@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import SignInButton from "../../components/signin-button/SignInButton";
 import { userContext } from "../../context/userContext";
 import "./Navbar.css";
@@ -7,7 +8,9 @@ const Navbar = () => {
   const [user, setUser] = useContext(userContext).user;
   return (
     <div className="navbar">
-      <h3>MySocialApp</h3>
+      <Link to="/" className="logo-title">
+        MySocialApp
+      </Link>
 
       {user ? (
         <img src={user.photoURL} className="navbar-img" />
