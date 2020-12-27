@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./pages/home/Home";
 import { UserContextProvider } from "./context/userContext";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
