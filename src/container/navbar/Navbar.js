@@ -13,7 +13,7 @@ const Navbar = () => {
       </Link>
 
       {user ? (
-        <img src={user.photoURL} className="navbar-img" />
+        <img src={user.photoURL} className="navbar-img" alt="nav-logo" />
       ) : (
         <SignInButton />
       )}
